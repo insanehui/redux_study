@@ -1,11 +1,8 @@
-// 章节 12 - Provider-and-connect.js
-
-// 这个文件是我们 JS 包的入口。 在这里将创建我们的 Redux store，实例化我们的 React 应用根组件然后将它附加到DOM中。
-
 import React from 'react'
 import { render } from 'react-dom'
-// 所有创建 store 的具体代码在 ./create-store.js 中
+
 import createStore from './create-store'
+
 // Application 是我们应用的根组件，它包含了 Redux 的 Provider...
 import Application from './application'
 
