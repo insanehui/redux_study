@@ -1,1 +1,1 @@
-# redux_study
+# 从tutorial拷过来的代码
