@@ -1,6 +1,7 @@
 var initialTimeState = {}
 
 export function _time(state = initialTimeState, action) {
+
   console.log('_time reducer called with state ', state , ' and action ', action);
 
   switch (action.type) {
@@ -23,4 +24,5 @@ export function _time(state = initialTimeState, action) {
     default:
       return state
   }
+
 }
