@@ -61,6 +61,7 @@ import { connect } from 'react-redux'
 import * as actionCreators from './action-creators'
 
 class Home extends React.Component {
+
   onTimeButtonClick (delay) {
     // 这个按钮处理器在用户的点击事件后会分发一个 action。
     // 我们在这里会使用一个 Connect 提供的分发函数,
@@ -71,6 +72,7 @@ class Home extends React.Component {
     // 试着修改这个值来正确影响我们的 UI
     this.props.dispatch(actionCreators.getTime(delay))
   }
+
   render () {
 
     // 因为 Connect 我们能够通过 props 取到特定的数据
