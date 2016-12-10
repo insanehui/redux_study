@@ -17,6 +17,7 @@ import * as reducers from './reducers'
 // 而错误的写法，使得到的reducers是一个函数，则不能用于combine
 
 
+// createStore支持一个data方法，但是暂时没有被用到
 export default function(data) {
   var reducer = combineReducers(reducers)
 
